@@ -12,7 +12,8 @@ module.exports = {
   //   runtimeChunk: 'single',
   // },
   output: {
-    publicPath: '/',
+    // baseUrl
+    publicPath: '/amis/project/test_one/-/other-project/other-page/',
     filename: 'xxx.[name].js',
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
